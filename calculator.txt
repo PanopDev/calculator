@@ -1,5 +1,5 @@
 calculator features/bugs
-
+added thisto staged and commit 
 features:
 add a few more specific calculation options
 change overall css styling to look more sleek
