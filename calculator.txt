@@ -1,0 +1,16 @@
+calculator features/bugs
+
+features:
+add a few more specific calculation options
+change overall css styling to look more sleek
+add theme options to final css styling
+make it so they can type the equation directly
+
+bugs: 
+deal with excessive decimal places ex 5.12300000000003
+
+
+add event listener on = click. 
+make Total Text larger or different in significant way.
+add another event listener for click on the calcuatorcontainer.
+return answer to original state
