@@ -1,9 +1,0 @@
-calculator features/bugs
-
-features:
-add a few more specific calculation options
-make it so they can type the equation directly
-
-bugs: 
-deal with excessive decimal places ex 5.12300000000003
-change JS @ media from window to calculator div container
