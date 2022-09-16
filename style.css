@@ -198,9 +198,9 @@ body {
 
     display: none;
     flex-wrap: wrap;
-    /* flex-direction:column; */
     justify-content: center;
     align-items: center;
+    align-content: flex-start;
     color:var(--font-color2);
     width: 80%;
     height: 70%;
