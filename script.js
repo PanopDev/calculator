@@ -1,22 +1,3 @@
-
-// function equalsTotal() {
-//     results[0].style.cssText = `
-//     font-size=60px;
-//     color:red
-//     `;
-//     calculatorContainer.addEventListener('click', () => {
-//         results[0].style.cssText = `
-//     font-size=10px;
-//     color:blue
-//     `
-//     })
-// }
-
-
-
-
-
-
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~variables
 const log = (log) => console.log(log)
 const div = document.querySelectorAll('div')
@@ -34,7 +15,6 @@ const back = document.querySelector('.back')
 const clear = document.querySelector('.clear')
 const homeBtn = document.querySelector('.home')
 const themeBtn = document.querySelector('.theme')
-
 const historyBlocks = document.querySelectorAll('.history-blocks')
 const alternateSizeView= window.matchMedia("(min-width:720px)")
 let backstring;
@@ -228,7 +208,6 @@ function decimalOrder(string) {
     else return false
 }
 
-
 //~~~~~~ calculator build
 mediaScreenSize(alternateSizeView)
 addEventListener('resize', () => mediaScreenSize(alternateSizeView))
@@ -256,16 +235,4 @@ themeBtn.addEventListener('click', () => {
     }
     else{ document.documentElement.className = 'light';
     themeBtn.innerText="Light Theme" }
-}
-
-
-)
-
-
-// function setTheme(){
-
-//     if (document.documentElement.className == 'light') {
-//         document.documentElement.className = 'dark'
-//     }
-//     else{ document.documentElement.className = 'light' }
-// }
+})
