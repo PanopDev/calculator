@@ -15,7 +15,7 @@
     --border-radius1:50%;
     --border-radisu2:50%;
     --hover-background:rgb(204, 251, 255);
-    --totalcolor: rgb(255, 255, 255);
+    --totalcolor: rgb(0, 0, 0);
 
 
 
@@ -94,6 +94,7 @@ body {
     width: 80%;
     height: 100%;
     overflow:hidden;
+    word-break: break-all;
 
           
 }
@@ -214,12 +215,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 98%;
     margin: 1px 3px;
     padding: 3px;
     border: 3px solid rgb(66, 66, 66);
     border-radius: 20px;
     background-image: var(--gradient2);
+    word-break: break-all;
 }
 
 .calculations {
